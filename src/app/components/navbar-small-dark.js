@@ -57,9 +57,6 @@ export default function NavbarSmallLight() {
                                 <Link1 to="features" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Services</Link1>
                             </li>
                             <li className={`nav-item`}>
-                                <Link1 to="pricing" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Pricing</Link1>
-                            </li>
-                            <li className={`nav-item`}>
                                 <Link1 to="testi" activeClass="active" spy={true} smooth={true} duration={500} className="nav-link">Review</Link1>
                             </li>
                             <li className={`nav-item`}>

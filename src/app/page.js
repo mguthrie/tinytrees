@@ -9,8 +9,6 @@ const Switcher = dynamic(()=>import('./components/Switcher'));
 const Footer = dynamic(()=>import('./components/footer'));
 const About = dynamic(()=>import('./components/about'));
 const OurServices = dynamic(()=>import('./components/our-services'));
-const ComfortablePricing = dynamic(()=>import('./components/comfortable-pricing'));
-const ClientSreview = dynamic (()=>import('./components/clientsreview'));
 const BlogsNews = dynamic(()=>import('./components/blogs-news'));
 const GetInTouch = dynamic(()=>import('./components/get-in-touch'));
  
