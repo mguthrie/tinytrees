@@ -28,11 +28,8 @@ export default function Index() {
                 <div className="absolute inset-0 bg-gradient-to-t to-slate-950/50 via-slate-950/75 from-slate-950"></div>
                 <div className="container">
                     <div className="grid grid-cols-1 pb-8 text-center mt-10">
-                        <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="yba7hPeTSjk" className="lightbox lg:h-20 h-16 lg:w-20 w-16 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white hover:bg-violet-600 text-violet-600 hover:text-white duration-500 ease-in-out mx-auto">
-                            <i className="mdi mdi-play inline-flex items-center justify-center text-3xl"></i>
-                        </Link>
-                        <h3 className="font-medium leading-normal text-4xl mb-5 mt-10 text-white font-lexend">We&apos;re Helping to Achieve your Success.</h3>
-                        <p className="text-slate-400 text-lg max-w-xl mx-auto font-inter">This is just a simple text made for this unique and awesome template, you can replace it with any text.</p>
+                        <h3 className="font-medium leading-normal text-4xl mb-5 mt-10 text-white font-lexend">Securing Your Digital Forrest, One Tiny Tree at a Time.</h3>
+                        <p className="text-slate-400 text-lg max-w-xl mx-auto font-inter">We specialize in helping you achieve your security and compliance goals.</p>
                         <div className="mt-8">
                             <Link href="#" className="py-2 px-5  font-normal tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white rounded-md font-inter inline-flex items-center gap-1"><Unicons.UilEnvelope width={16}/> Contact Now</Link>
                         </div>
@@ -40,7 +37,7 @@ export default function Index() {
                 </div>
             </section>
             <About />
-            <OurServices title="Our Services" desc="This is just a simple text made for this unique and awesome template, you can replace it with any text."/>
+            <OurServices title="Our Services" desc="Full range of Security and Compliance services"/>
             <section className="relative md:py-24 py-16 md:pt-0 pt-0 bg-gray-50 dark:bg-slate-800">
                 <div className="container">
                     <div className="grid grid-cols-1 justify-center">
