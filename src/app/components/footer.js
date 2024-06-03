@@ -17,8 +17,7 @@ export default function Footer() {
                                 <div className="grid grid-cols-1">
                                     <div className="text-center">
                                         <Image src="/images/logo-icon-64.png" className="block mx-auto" alt="" width={64} height={64} />
-                                        <p className="max-w-xl mx-auto text-slate-400 mt-8">Launch your campaign and benefit from
-                                            our expertise on designing and managing conversion centered Tailwind CSS html page.
+                                        <p className="max-w-xl mx-auto text-slate-400 mt-8">Partner with us for all your security and compliance needs. (HIPPA, ISO, NERC, NIST)
                                         </p>
                                     </div>
 
@@ -54,9 +53,7 @@ export default function Footer() {
                             <div className="md:col-span-6">
                                 <div className="md:text-start text-center">
                                     <p className="text-gray-400">©
-                                        {new Date().getFullYear()} Ovaxo. Design & Develop with <i
-                                            className="mdi mdi-heart text-red-700"></i> by  <Link href="https://shreethemes.in/"
-                                                target="_blank" className="text-reset">Shreethemes</Link>.
+                                        {new Date().getFullYear()} Tiny Trees LLC.
                                     </p>
                                 </div>
                             </div>

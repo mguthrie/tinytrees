@@ -16,8 +16,8 @@ const lexend = Lexend({
 })
 
 export const metadata = {
-  title: 'Ovaxo - React Nextjs Multipurpose Landing Template',
-  description: 'Ovaxo - React Nextjs Multipurpose Landing Template',
+  title: 'Tiny Trees LLC',
+  description: 'Tiny Trees - Cyber Security and Compliance Consulting',
 }
 
 export default function RootLayout({ children }) {
