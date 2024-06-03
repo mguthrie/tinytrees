@@ -35,10 +35,7 @@ export default function NavbarSmallLight() {
                     <div className="nav-icons flex items-center lg_992:order-2 ms-auto lg:ms-4">
 
                         <ul className="list-none menu-social mb-0">
-                            <li className="inline">
-                                <Link href="/login" 
-                                    className="h-9 w-9 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white"><Unicons.UilUser width={16}/></Link>
-                            </li>
+                           
                         </ul>
 
                         <button data-collapse="menu-collapse" type="button" onClick={toggleMenu}
