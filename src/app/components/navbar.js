@@ -67,9 +67,6 @@ export default function Navbar(props) {
                             <li className={`nav-item navbar-item ${pathname === '/team' ? 'active' : ''}`}>
                                  <Link href="/team" className="nav-link">Team</Link>
                             </li>
-                            <li className={`nav-item navbar-item ${pathname === '/blogs' ? 'active' : ''}`}>
-                                 <Link href="/blogs" className="nav-link">Blogs</Link>
-                            </li>
                             <li className={`nav-item navbar-item ${pathname === '/contactus' ? 'active' : ''}`}>
                                  <Link href="/contactus" className="nav-link">Contact us</Link>
                             </li>
