@@ -9,8 +9,6 @@ const Switcher = dynamic(()=>import('./components/Switcher'));
 const Footer = dynamic(()=>import('./components/footer'));
 const About = dynamic(()=>import('./components/about'));
 const OurServices = dynamic(()=>import('./components/our-services'));
-const ComfortablePricing = dynamic(()=>import('./components/comfortable-pricing'));
-const ClientSreview = dynamic (()=>import('./components/clientsreview'));
 const BlogsNews = dynamic(()=>import('./components/blogs-news'));
 const GetInTouch = dynamic(()=>import('./components/get-in-touch'));
  
@@ -83,8 +81,6 @@ export default function Index() {
                 </div>
                 <div className="absolute bottom-0 end-0 start-0 h-4/5 md:h-2/3 bg-violet-600"></div>
             </section>
-            <ComfortablePricing  title="Our Comfortable Pricing" desc="Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS html page."/>
-            <ClientSreview  className="lg:py-24 py-16"/>
             <BlogsNews title="Blogs or News" desc="Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS html page."/>
             <GetInTouch />
             <Footer />
